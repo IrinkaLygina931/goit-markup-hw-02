@@ -1,124 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link /*! modern-normalize v2.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize
-    */*,::after,::before{box-sizing:border-box}html{font-family:system-ui,'Segoe
-    UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI
-    Emoji';line-height:1.15;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4}body{margin:0}hr{height:0;color:inherit}abbr[title]{text-decoration:underline
-    dotted}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation
-    Mono',Menlo,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}::-moz-focus-inner{border-style:none;padding:0}:-moz-focusring{outline:1px
-    dotted
-    ButtonText}:-moz-ui-invalid{box-shadow:none}legend{padding:0}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item} rel="stylesheet" type="text/css" href="./css/styles.css">
-</head>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
 
-<body>
-    <header>
-        <a href="./index.html" class="title"> <span class="page-web">Web</span>Studio</a>
-        <nav>
-            <ul class="list">
-                <li class="list-link">
-                    <a href="./index.html">Studio</a>
-                </li>
-                <li class="list-link">
-                    <a href="./index.html">Portfolio</a>
-                </li>
-                <li class="list-link">
-                    <a href="./index.html">Contacts</a>
-                </li>
-            </ul>
-        </nav>
-        <address class="Contacts">
-            <ul class="Contacts-list">
-                <li>
-                    <a class="Contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li>
-                    <a class="Contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                </li>
-            </ul>
-        </address>
+  <body>
+    <header class="page-header">
+      <a href="./index.html" class="title">
+        <span class="page-web">Web</span>Studio</a
+      >
+      <nav>
+        <ul class="list">
+          <li class="list-link">
+            <a href="./index.html">Studio</a>
+          </li>
+          <li class="list-link">
+            <a href="./index.html">Portfolio</a>
+          </li>
+          <li class="list-link">
+            <a href="./index.html">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <address class="Contacts">
+        <ul class="Contacts-list">
+          <li>
+            <a class="Contacts-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="Contacts-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
     </header>
     <main>
-        <section>
-            <h1 class="titlt-h1">Effective Solutions
-                for Your Business</h1>
-            <button tupe="button">Order Service</button>
-        </section>
-        <section>
-            <h2>Strategy</h2>
-            <p>Our goal is to identify the business
-                problem to walk away with the perfect and creative solution.</p>
-            <h2>Punctuality</h2>
-            <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
-            <h2>Diligence</h2>
-            <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
-            </p>
-            <h2>Technologies</h2>
-            <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-        </section>
-        <section>
-            <h3 class="title-h3">Our Team</h3>
-            <ul class="list">
-                <li>
-                    <img src="./css/images/img.jpg" alt="Mark Guerrer" width="264" height="260">
-                    <h4 class="title-h3">Mark Guerrero</h4>
-                    <p class="text">Product Designer</p>
-                </li>
-                <li><img src="./css/images/img(1).jpg" alt="Tom Ford" width="264" height="260">
-                    <h4 class="title-h3">Tom Ford</h4>
-                    <p class="text">Frontend Developer</p>
-                </li>
-                <li><img src="./css/images/img(2).jpg" alt="Camila Garcia" width="264" height="260">
-                    <h4 class="title-h3">Camila Garcia</h4>
-                    <p class="text">Marketing</p>
-                </li>
-                <li><img src="./css/images/img(3).jpg" alt="Daniel Wilson" width="264" height="260">
-                    <h4 class="title-h3">Daniel Wilson</h4>
-                    <p class="text">UI Designer</p>
-                </li>
-            </ul>
-        </section>
+      <section>
+        <h1>Effective Solutions for Your Business</h1>
+        <button class="Order-Service" tupe="button">Order Service</button>
+      </section>
+      <section>
+        <h2>Strategy</h2>
+        <p>
+          Our goal is to identify the business problem to walk away with the
+          perfect and creative solution.
+        </p>
+        <h2>Punctuality</h2>
+        <p>
+          Bring the key message to the brand's audience for the best price
+          within the shortest possible time.
+        </p>
+        <h2>Diligence</h2>
+        <p>
+          Research and confirm brands that present the strongest digital growth
+          opportunities and minimize risk.
+        </p>
+        <h2>Technologies</h2>
+        <p>
+          Design practice focused on digital experiences. We bring forth a deep
+          passion for problem-solving.
+        </p>
+      </section>
+      <section class="Portfolio">
+        <h3 class="title-h3">Our Team</h3>
+        <ul class="list">
+          <li>
+            <img
+              src="./images/img.jpg"
+              alt="Mark Guerrer"
+              width="264"
+              height="260"
+            />
+            <h4 class="title-h3">Mark Guerrero</h4>
+            <p class="text">Product Designer</p>
+          </li>
+          <li>
+            <img
+              src="./images/img(1).jpg"
+              alt="Tom Ford"
+              width="264"
+              height="260"
+            />
+            <h4 class="title-h3">Tom Ford</h4>
+            <p class="text">Frontend Developer</p>
+          </li>
+          <li>
+            <img
+              src="./images/img(2).jpg"
+              alt="Camila Garcia"
+              width="264"
+              height="260"
+            />
+            <h4 class="title-h3">Camila Garcia</h4>
+            <p class="text">Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/img(3).jpg"
+              alt="Daniel Wilson"
+              width="264"
+              height="260"
+            />
+            <h4 class="title-h3">Daniel Wilson</h4>
+            <p class="text">UI Designer</p>
+          </li>
+        </ul>
+      </section>
 
-        <section>
-            <ul>
-                <li><img src="./css/images/img0.jpg" alt="" width="360" height="300">
-                    <h5>Banking App</h5>
-                    <p class="text">App</p>
-                </li>
-                <li><img src="./css/images/img1(1).jpg" alt="Cashless Payment" width="360" height="300">
-                    <h5 class="title-h5">Cashless Payment</h5>
-                    <p class="text">Marketing</p>
-                </li>
-                <li><img src="./css/images/img2(2).jpg" alt="" width="360" height="300">
-                    <h5 class="title-h5">Meditation App</h5>
-                    <p>App</p>
-                </li>
-                <li><img src="./css/images/img3(3).jpg" alt="Taxi Service" width="360" height="300">
-                    <h5 class="title-h5">Taxi Service</h5>
-                    <p class="text">Marketing</p>
-                </li>
-                <li><img src="./css/images/img4(4).jpg" alt="Screen Illustrations" width="360" height="300">
-                    <h5 class="title-h5">Screen Illustrations</h5>
-                    <p class="text">Design</p>
-                </li>
-                <li><img src="./css/images/img4(5).jpg" alt="Online Courses" width="360" height="300">
-                    <h5 class="title-h5">Online Courses</h5>
-                    <p class="text">Marketing</p>
-                </li>
-            </ul>
-        </section>
+      <section>
+        <ul>
+          <li>
+            <img src="./images/img0.jpg" alt="" width="360" height="300" />
+            <h5>Banking App</h5>
+            <p class="text">App</p>
+          </li>
+          <li>
+            <img
+              src="./images/img1(1).jpg"
+              alt="Cashless Payment"
+              width="360"
+              height="300"
+            />
+            <h5 class="title-h5">Cashless Payment</h5>
+            <p class="text">Marketing</p>
+          </li>
+          <li>
+            <img src="./images/img2(2).jpg" alt="" width="360" height="300" />
+            <h5 class="title-h5">Meditation App</h5>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/img3(3).jpg"
+              alt="Taxi Service"
+              width="360"
+              height="300"
+            />
+            <h5 class="title-h5">Taxi Service</h5>
+            <p class="text">Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/img4(4).jpg"
+              alt="Screen Illustrations"
+              width="360"
+              height="300"
+            />
+            <h5 class="title-h5">Screen Illustrations</h5>
+            <p class="text">Design</p>
+          </li>
+          <li>
+            <img
+              src="./images/img4(5).jpg"
+              alt="Online Courses"
+              width="360"
+              height="300"
+            />
+            <h5 class="title-h5">Online Courses</h5>
+            <p class="text">Marketing</p>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <footer>
-        <a class="list-link" href="./index.html">WebStudio</a>
-        <p class="text">Increase the flow of customers and sales for your business with digital marketing & growth
-            solutions.</p>
+      <a class="list-link" href="./index.html">WebStudio</a>
+      <p class="text">
+        Increase the flow of customers and sales for your business with digital
+        marketing & growth solutions.
+      </p>
     </footer>
-
-</body>
-
+  </body>
 </html>
