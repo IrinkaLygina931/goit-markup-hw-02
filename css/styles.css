@@ -157,17 +157,10 @@ color: #434455;
 }
 
 .portfolio {
-width: 1440px;
-    height: 3300px;
     background: #FFFFFF;
 }
 
-.team {
-    width: 1440px;
-        height: 732px;
-        flex-shrink: 0;
-        background: #F4F4FD;
-}
+
 
 .h2 {
 color: #2E2F42;
@@ -179,6 +172,82 @@ color: #2E2F42;
     text-transform: capitalize;
 }
 
+.team {
+    background: #F4F4FD;
+}
+
+.mark-guerrero {
+    width: 264px;
+        height: 260px;
+        background: lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
+}
+
+.tom-ford {
+width: 264px;
+    height: 260px;
+    background: lightgray -335.01px -22.055px / 256.162% 173.614% no-repeat;
+}
+
+.camila-garcia {
+width: 264px;
+    height: 260px;
+    background: lightgray -128.784px -0.151px / 197.563% 133.752% no-repeat;
+}
+
+.daniel-wilson {
+width: 264px;
+    height: 260px;
+    background: lightgray -200px -7.128px / 251.515% 170.277% no-repeat;
+}
+
+.banking-app {
+width: 360px;
+    height: 300px;
+    flex-shrink: 0;
+    background: lightgray -25.026px 0px / 125% 100% no-repeat;
+}
+
+
+.cashless-payment {
+width: 360px;
+    height: 300px;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+}
+
+
+.medutation-app {
+width: 360px;
+    height: 300px;
+    flex-shrink: 0;
+    background: lightgray -1px 0px / 101.111% 100% no-repeat;
+}
+
+.taxi-service {
+    width: 360px;
+        height: 300px;
+        flex-shrink: 0;
+        background: lightgray 50% / cover no-repeat;
+    
+}
+
+
+.screen-illustrations {
+width: 360px;
+    height: 300px;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+
+}
+
+.online-courses {
+    width: 360px;
+        height: 300px;
+        flex-shrink: 0;
+        background: lightgray 50% / cover no-repeat;
+}
+
+
 .footer {
     width: 1440px;
         height: 312px;
@@ -187,7 +256,7 @@ color: #2E2F42;
 }
 
 .footer-logo {
-    color: var(--CLOUD, #F4F4FD);
+    color: #F4F4FD;
         font-family: Raleway;
         font-size: 18px;
         font-weight: 700;
