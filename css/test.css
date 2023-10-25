@@ -1,0 +1,296 @@
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+}
+
+address {
+    font-style: normal;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+.header {
+
+}
+
+.header-logo {
+color: #2E2F42;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.header-logo-web {
+color: #4D5AE5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.header-nav {
+    display: inline-flex;
+        align-items: flex-start;
+        gap: 40px;
+}
+
+.header-list {
+
+}
+
+.header-item {
+
+}
+
+.header-link {
+    color: #2E2F42;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+}
+
+.adress {
+
+}
+
+.header-adress-list {
+
+}
+
+.header-mailto {
+color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.header-tel {
+color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.main-section {
+    border: 1px solid #000;
+        background: #2E2F42;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.h1 {
+color: #FFFFFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+}
+.button {
+    border-radius: 4px;
+        background: #4D5AE5;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.main {
+
+}
+.main-section {
+
+}
+
+.Order-Service {
+color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+}
+
+.h3 {
+color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.text {
+color: #434455;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.portfolio {
+    background: #FFFFFF;
+}
+
+
+
+.h2 {
+color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.team {
+    background: #F4F4FD;
+}
+
+.mark-guerrero {
+    width: 264px;
+        height: 260px;
+        background: lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
+}
+
+.tom-ford {
+width: 264px;
+    height: 260px;
+    background: lightgray -335.01px -22.055px / 256.162% 173.614% no-repeat;
+}
+
+.camila-garcia {
+width: 264px;
+    height: 260px;
+    background: lightgray -128.784px -0.151px / 197.563% 133.752% no-repeat;
+}
+
+.daniel-wilson {
+width: 264px;
+    height: 260px;
+    background: lightgray -200px -7.128px / 251.515% 170.277% no-repeat;
+}
+
+.banking-app {
+width: 360px;
+    height: 300px;
+    flex-shrink: 0;
+    background: lightgray -25.026px 0px / 125% 100% no-repeat;
+}
+
+
+.cashless-payment {
+width: 360px;
+    height: 300px;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+}
+
+
+.medutation-app {
+width: 360px;
+    height: 300px;
+    flex-shrink: 0;
+    background: lightgray -1px 0px / 101.111% 100% no-repeat;
+}
+
+.taxi-service {
+    width: 360px;
+        height: 300px;
+        flex-shrink: 0;
+        background: lightgray 50% / cover no-repeat;
+    
+}
+
+
+.screen-illustrations {
+width: 360px;
+    height: 300px;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+
+}
+
+.online-courses {
+    width: 360px;
+        height: 300px;
+        flex-shrink: 0;
+        background: lightgray 50% / cover no-repeat;
+}
+
+
+.footer {
+    width: 1440px;
+        height: 312px;
+        flex-shrink: 0;
+        background: #2E2F42;
+}
+
+.footer-logo {
+    color: #F4F4FD;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+
+.footer-logo-web {
+    color: #4D5AE5;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+
+.footer-text {
+    color: #D9D9D9;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
